@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
 .cabecalho {
     background-color: #000000;
     color: white;
@@ -36,4 +41,20 @@
 .escola-titulo{
     font-size: 35px;
     padding: 35px 0;
+}
+.Estudante-imagem{
+    width: 300px;
+    padding: 50px;
+    margin: 50px;
+}
+.Estudante-icone{
+    width: 45px;
+}
+.Estudante{
+    background-image: linear-gradient(#0057FF, #0057FF);
+    color: white;
+}
+.Estudante-titulo{
+    text-align: center;
+    font-size: 55px;
 }
